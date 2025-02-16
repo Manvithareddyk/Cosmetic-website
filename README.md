@@ -16,5 +16,4 @@ An E-commerce website for makeup, skincare and haircare.
 
 
 
-## Terms of Service
-![Terms](screenshot-1739722845270.png)
+
