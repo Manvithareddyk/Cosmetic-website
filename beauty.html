@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ <div class="card">
+
+<div class="image">
+   <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m11.webp" height="300" width="300">
+</div>
+<div class="des">
+ <p>LAKME Glitterati Shine Lipstick<br><br>₹<s>500</s>&nbspoff&nbsp50%<br><font color="green">₹250&nbsp<font color="black"></font></p>
+ <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+<button>Add to cart</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m22.jpg" height="300" width="300">
+</div>
+<div class="des">
+ <p><font color="black"> Lakme Perfecting Liquid Foundation<br><br>₹<s>1000</s>&nbspoff&nbsp25%<br><font color="green">₹750&nbsp<font color="black"></font></p></p>
+ <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+<button>Add to cart</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m3.jpg" height="300" width="300">
+   </div>
+<div class="des">
+ <p><font color="black">Peach Milk Cream<br><br>₹<s>500</s>&nbspoff&nbsp50%<br><font color="green">₹250&nbsp<font color="black"></font></p></p></p>
+ <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+<button>Add to cart</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m4.webp" height="300" width="300">
+</div>
+<div class="des">
+ <p><font color="black">Eyeconic Liquid Eyeliner<br><br>₹<s>500</s>&nbspoff&nbsp50%<br><font color="green">₹250&nbsp<font color="black"></font></p>
+ <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+<button>Add to cart</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m5.jpg" height="300" width="300">
+</div>
+<div class="des">
+ <p><font color="black">Lip Gloss Creme Caramel (Glossy)<br><br>₹<s>500</s>&nbspoff&nbsp50%<br><font color="green">₹250&nbsp<font color="black"></font></p>
+ <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+<button>Add to cart</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m6.webp"height="300" width="300">
+</div>
+<div class="des">
+ <p><font color="black"> Perfect Radiance Compact<br><br>₹<s>500</s>&nbspoff&nbsp50%<br><font color="green">₹250&nbsp<font color="black"></font></p>
+ <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+<button>Add to cart</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m7.webp" height="300" width="300">
+</div>
+<div class="des">
+ <p><font Color="black"> Crush Nail<br><br>₹<s>300</s>&nbspoff&nbsp50%<br><font color="green">₹150&nbsp<font color="black"></font></p>
+ <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+<button>Add to cart</button>
+
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+    <div class="image">
+       <img src="C:\Users\akhilakoukuntla\OneDrive\Dokumen\m8.webp"height="300" width="300" >
+       </div>
+    <div class="des">
+     <p><font color ="black">Absolute Blur Perfect Makeup<br><br>₹<s>300</s>&nbspoff&nbsp50%<br><font color="green">₹150&nbsp<font color="black"></font> </p>
+	 <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+    <button>Add to cart</button>
+    </div>
+    </div>
+    </div>

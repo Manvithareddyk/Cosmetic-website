@@ -1,0 +1,460 @@
+<html>
+    <head>
+        <style>
+        .cards {
+            margin: 0 auto;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+            grid-auto-rows: auto;
+            gap: 20px;
+            font-family: sans-serif;
+            padding-top: 30px;
+        }
+        
+        .cards * {
+            box-sizing: border-box;
+        }
+        
+        .card__image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            border-top: 2px solid #333333;
+            border-right: 2px solid #333333;
+            border-left: 2px solid #333333;
+        }
+        
+        .card__content {
+            line-height: 1.5;
+            font-size: 0.9em;
+            padding: 15px;
+            background: #fafafa;
+            border-right: 2px solid #333333;
+            border-left: 2px solid #333333;
+        }
+        
+        .card__content > p:first-of-type {
+            margin-top: 0;
+        }
+        
+        .card__content > p:last-of-type {
+            margin-bottom: 0;
+        }
+        
+        .card__info {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #555555;
+            background: #eeeeee;
+            font-size: 0.8em;
+            border-bottom: 2px solid #333333;
+            border-right: 2px solid #333333;
+            border-left: 2px solid #333333;
+        }
+        
+        .card__info i {
+            font-size: 0.9em;
+            margin-right: 8px;
+        }
+        
+        .card__link {
+            color: #64968c;
+            text-decoration: none;
+        }
+        
+        .card__link:hover {
+            text-decoration: underline;
+        }*{margin: 0; padding: 0; box-sizing: border-box;}
+       .main{
+       width: 100%;
+       height: 100vh;
+      display: flex;
+      align-items: center;
+       justify-content: center;
+        background: rgb(240, 240, 240);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+        
+       </style>
+    </head>
+    <body>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="active" href="blog.html">Blogs</a></li>
+        <li><a href="#skincare">Skincare</a></li>
+        <li><a href="#haircare">Haircare</a></li>
+        <li><a href="#cosmetics">Makeup</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="social.html">Follow us</a></li>
+      </ul>
+      
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <div class="cards">
+  <div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\cerave blog.jpg" alt="">
+    <div class="card__content">
+      <h4>Anu jais</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>310
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\truskin blod.jpg" alt="">
+    <div class="card__content">
+      <h4>Deepu Netta</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>1,993
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220234.png"alt="">
+    <div class="card__content">
+      <h4>Arpita singh</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>887
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220304.png" alt="">
+    <div class="card__content">
+      <h4>Catherine</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>2,512
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220335.png" alt="">
+    <div class="card__content">
+      <h4>Husky</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>140
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+  </div><div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220515.png" alt="">
+    <div class="card__content">
+      <h4>vish</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>7900
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220408.png" alt="">
+    <div class="card__content">
+      <h4>shresta seth</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>7640
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220443.png" alt="">
+    <div class="card__content">
+      <h4>Anu</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>4560
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220630.png" alt="">
+    <div class="card__content">
+      <h4>Nansy</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>89000
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220933.png" alt="">
+    <div class="card__content">
+      <h4>Nain</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>2310
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220709.png" alt="">
+    <div class="card__content">
+      <h4>Naseera</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>3421
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220736.png" alt="">
+    <div class="card__content">
+      <h4>chatterji</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>4586
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220832.png" alt="">
+    <div class="card__content">
+      <h4>Rubina</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>6570
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 220908.png" alt="">
+    <div class="card__content">
+      <h4>Lekha</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>5684
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221038.png" alt="">
+    <div class="card__content">
+      <h4>Bhavs</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>7205
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221113.png" alt="">
+    <div class="card__content">
+      <h4>kiki</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>6892
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221147.png" alt="">
+    <div class="card__content">
+      <h4>Mannsa</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>1470
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221237.png" alt="">
+    <div class="card__content">
+      <h4>Adiba</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>1430
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221251.png" alt="">
+    <div class="card__content">
+      <h4>Mary</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>1408
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221340.png" alt="">
+    <div class="card__content">
+      <h4>Saraf</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>5684
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221445.png" alt="">
+    <div class="card__content">
+      <h4>Jolly joe</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>4368
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221505.png" alt="">
+    <div class="card__content">
+      <h4>Subha</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>1258
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221604.png" alt="">
+    <div class="card__content">
+      <h4>Aish</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>4598
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+<div class="card">
+    <img class="card__image" src="C:\Users\Manvitha Reddy\Documents\Cosmetic Web Project\final modified\final\Screenshot 2024-05-25 221702.png" alt="">
+    <div class="card__content">
+      <h4>Dany</h4>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>4563
+      </div>
+      <div>
+        <a href="./" class="card__link">View Article</a>
+      </div>
+    </div>
+</div>
+</div>
+
+    </body>
+</html>

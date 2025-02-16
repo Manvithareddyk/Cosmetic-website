@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>About Us</title>
+    <style>
+        /* Set the grid container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 10px;
+            width: 70%;
+            margin: 40px auto;
+        }
+
+        /* Style the images */
+        .grid-item {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 95%;
+            width: 100%;
+        }
+
+        /* Style the text card */
+        .text-card {
+            background-color: peachpuff;
+            padding: 20px;
+            text-align: center;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        /* Style the heading */
+        .heading {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color:darkgreen;
+        }
+
+        /* Style the content */
+        .content {
+            font-size: 16px;
+            color:darkslategray;
+        }
+
+        /* Media query for responsiveness */
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+            }
+            .text-card{
+              grid-column:1/-1;
+              grid-row:3/4;
+            }
+        }
+        .site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    background-color:lavenderblush;
+    display: flex;
+    justify-content: space-between;
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+    .animate-character
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+  @keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+    </style>
+</head>
+<header class="site-header">
+            <div class="site-identity">
+                <h1 class="animate-character"><a href="#"><font size="25" face="comic sans MS"color='darkred'>MMAAK</font></a></h1>
+            </div >
+            <nav class="site-navigation">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Products▾</a>
+            <ul class="dropdown">
+                <li><a href="#"> Skincare</a></li>
+                <li><a href="#"> Makeup</a></li>
+                <li><a href="#">Haircare</a></li>
+            </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="social.html">Follow us</a></li>
+        </ul>
+            </nav>
+        </header>
+        <br>
+   <body>
+    <div class="grid-container">
+        <!-- First row:-->
+        <div class="grid-item" style="background-image: url('11.jpeg');"></div>
+        <div class="grid-item" style="background-image: url('12.jpeg');"></div>
+        <div class="grid-item" style="background-image: url('13.jpeg');"></div>
+        <!--Second row-->
+        <div class="grid-item" style="background-image: url('10.jpeg');"></div>
+        <div class="text-card"><h2 class="heading">About Us</h2>
+        <p class ="content">At MMAAK,we believe beauty is personal. Our curated, cruelty-free products empower you to express your unique self with confidence and elegance.Our diverse range of products, from skincare essentials to glamorous makeup, is designed to empower you to express your unique beauty. We are dedicated to offering exceptional service and fostering a community where everyone feels beautiful, confident, and valued.</p>
+        </div>
+        <div class="grid-item" style="background-image:url('5.jpeg');"></div>
+
+        <!-- Third row:-->
+        <div class="grid-item" style="background-image: url('3.jpeg');"></div>
+        <div class="grid-item" style="background-image: url('7.jpeg');"></div>
+        <div class="grid-item" style="background-image: url('8.jpeg');"></div>
+
+    </div>
+</body>
+</html>
